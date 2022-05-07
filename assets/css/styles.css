@@ -1,24 +1,30 @@
 body {
-    color: black;
+    color: white;
     margin: 0;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    background-image: url('https://images.pexels.com/photos/6044830/pexels-photo-6044830.jpeg?cs=srgb&dl=pexels-skylar-kang-6044830.jpg&fm=jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+    background-size: 74% 100%;
 }
 
 #avatar {
     justify-content: center;
     display: flex;
-    margin-bottom: 25px;
+    margin: 100px;
 }
 
 p {
-    color: black;
-    margin: 20px;
-    text-align: justify;
+    color: white;
+    text-align: center;
     border-width: 5px;
     flex-wrap: wrap;
-    font-size: 1.25em;
-    /* Defines how to distribute the empty space between child elements */
-}
-    
+    font-size: 1.35em;
+    margin: 25px 250px 50px;
+
 }
 
 nav {
@@ -28,19 +34,22 @@ nav {
     margin-top: 2%;
     padding: 50px;
     justify-content: space-around;
+    
   }
 
 h1 {
     justify-content: center;
     margin: 25px 0px 100px;
     display: flex;
+    font-size: 2em;
 
 }
 
 h3{
     justify-content: center;
-    margin: 25px 0px 5px;
+    margin: 25px 0px 50px;
     display: flex;
+    font-size: 1.5em;
 }
 
   .profile {
@@ -57,5 +66,7 @@ h3{
     flex: 1 0 100px;
     display: inline-flex;
     justify-content: center;
-    margin: 10px 20px;
+    margin: 10px 0px;
+    font-size: 1.5em;
+    font-weight: bold;
   }
