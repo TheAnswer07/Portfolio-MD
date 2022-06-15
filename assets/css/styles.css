@@ -1,72 +1,53 @@
-body {
-    color: white;
+* {
     margin: 0;
-    font-family: Calibri, 'Trebuchet MS', sans-serif;
-    background-color: black;
-    background-image: url('https://images.pexels.com/photos/6044830/pexels-photo-6044830.jpeg?cs=srgb&dl=pexels-skylar-kang-6044830.jpg&fm=jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #FFFFFF;
-    background-size: 74% 100%;
-}
-
-#avatar {
-    justify-content: center;
-    display: flex;
-    margin: 100px;
-}
-
-p {
-    color: white;
-    text-align: center;
-    border-width: 5px;
-    flex-wrap: wrap;
-    font-size: 1.35em;
-    margin: 25px 250px 50px;
-
-}
-
-nav {
-    /* Turns this element into a flexbox */
-    display: flex;
-    /* Forces elements to the next line if they don't fit */
-    margin-top: 2%;
-    padding: 50px;
-    justify-content: space-around;
-    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
   }
 
-h1 {
-    justify-content: center;
-    margin: 25px 0px 100px;
+  body {
+    background-color:whitesmoke;
+    background-size: 100vw, 100vh;
+    padding-top: 15px;
+  }
+  
+  .navBar {
+    background-color: rgb(2, 2, 61);
     display: flex;
-    font-size: 2em;
+    margin: 0;
+    padding: 0.5%;
+  }
 
-}
+  a {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    justify-content: space-around;
 
-h3{
-    justify-content: center;
-    margin: 25px 0px 50px;
+  }
+  
+  .main h1 {
     display: flex;
-    font-size: 1.5em;
-}
-
-  .profile {
-    /* A flex-basis of 200px sets the starting width */
-    /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
-    padding: 20px;
-    text-align: center;
-    border-style: solid;
-    border-width: 5px;
-    /* Defines how to distribute the empty space between child elements */
-    background: #13293d;
-    color: #fff;
-    width: 25%;
-    flex: 1 0 100px;
-    display: inline-flex;
-    justify-content: center;
-    margin: 10px 0px;
-    font-size: 1.5em;
+    flex-direction: row;
+    justify-content: end;
+    font-size: 10em;
     font-weight: bold;
   }
+
+  /*margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 100px;
+    margin-inline-end: 0px;
+  
+  ul {
+    
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  
+  }
+  
+  
